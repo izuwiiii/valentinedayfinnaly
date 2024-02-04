@@ -1,0 +1,12 @@
+
+<div class="all">
+    <div class="bear">
+        <img [src]="gifUrl" alt="bear">
+        <h1>Will you be my Valentine?</h1>
+    </div>
+    <div>
+        <button class="yes" #yes (click)="yesClicked()"><p>Yes</p></button>
+        <button class="no" (click)="noClicked(yes)"><p>{{curPhrase}}</p></button>
+    </div>
+</div>
+

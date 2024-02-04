@@ -1,0 +1,17 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+    img {
+        width: 350px;
+        height: 350px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+}
+
