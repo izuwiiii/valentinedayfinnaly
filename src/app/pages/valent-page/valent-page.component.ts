@@ -25,7 +25,7 @@ export class ValentPageComponent {
   gifUrl: string = 'https://media1.tenor.com/m/al4a1pG1f8YAAAAC/jump-bear.gif';
 
   yesClicked() {
-    this.router.navigateByUrl('Yes')
+    this.router.navigateByUrl('/yes')
   }
 
   width: number = 100;
